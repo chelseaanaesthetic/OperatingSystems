@@ -1,0 +1,54 @@
+Random Page Reference String:
+2,4,9,0,4,5,6,9,6,3,9,6,6,0,6,1,6,2,5,4,8,5,7,6,6,0,7,3,5,9
+
+First In First Out with 1 page frames results in 28 page faults.
+First In First Out with 2 page frames results in 25 page faults.
+First In First Out with 3 page frames results in 21 page faults.
+First In First Out with 4 page frames results in 21 page faults.
+First In First Out with 5 page frames results in 17 page faults.
+First In First Out with 6 page frames results in 17 page faults.
+First In First Out with 7 page frames results in 15 page faults.
+
+Least Recently Used with 1 page frames results in 28 page faults.
+Least Recently Used with 2 page frames results in 25 page faults.
+Least Recently Used with 3 page frames results in 20 page faults.
+Least Recently Used with 4 page frames results in 20 page faults.
+Least Recently Used with 5 page frames results in 18 page faults.
+Least Recently Used with 6 page frames results in 16 page faults.
+Least Recently Used with 7 page frames results in 15 page faults.
+
+Optimal Page Replacement with 1 page frames results in 28 page faults.
+Optimal Page Replacement with 2 page frames results in 22 page faults.
+Optimal Page Replacement with 3 page frames results in 20 page faults.
+Optimal Page Replacement with 4 page frames results in 22 page faults.
+Optimal Page Replacement with 5 page frames results in 15 page faults.
+Optimal Page Replacement with 6 page frames results in 12 page faults.
+Optimal Page Replacement with 7 page frames results in 11 page faults.
+
+
+Given Page Reference String:
+0,7,0,1,2,0,8,9,0,3,0,4,5,6,7,0,8,9,1,2,3,4,5,9,7,8,5,6,0,3
+
+First In First Out with 1 page frames results in 30 page faults.
+First In First Out with 2 page frames results in 28 page faults.
+First In First Out with 3 page frames results in 28 page faults.
+First In First Out with 4 page frames results in 26 page faults.
+First In First Out with 5 page frames results in 26 page faults.
+First In First Out with 6 page frames results in 24 page faults.
+First In First Out with 7 page frames results in 23 page faults.
+
+Least Recently Used with 1 page frames results in 30 page faults.
+Least Recently Used with 2 page frames results in 28 page faults.
+Least Recently Used with 3 page frames results in 26 page faults.
+Least Recently Used with 4 page frames results in 25 page faults.
+Least Recently Used with 5 page frames results in 24 page faults.
+Least Recently Used with 6 page frames results in 23 page faults.
+Least Recently Used with 7 page frames results in 23 page faults.
+
+Optimal Page Replacement with 1 page frames results in 30 page faults.
+Optimal Page Replacement with 2 page frames results in 23 page faults.
+Optimal Page Replacement with 3 page frames results in 21 page faults.
+Optimal Page Replacement with 4 page frames results in 20 page faults.
+Optimal Page Replacement with 5 page frames results in 19 page faults.
+Optimal Page Replacement with 6 page frames results in 17 page faults.
+Optimal Page Replacement with 7 page frames results in 15 page faults.

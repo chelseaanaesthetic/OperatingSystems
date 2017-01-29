@@ -1,0 +1,7 @@
+Program2CmdLineUI folder has the first version of this assignment that I did. 
+It has a menu and lets the user test out all of the functionality.
+
+BufferManagerAuto folder is the revised version to include pointers and a
+separate driver file to test everything out.
+
+**Algorithms are the same.

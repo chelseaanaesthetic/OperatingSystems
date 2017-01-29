@@ -1,0 +1,175 @@
+Chelsea@MasterNugget /cygdrive/c/Users/Chelsea/VSCodeProjects
+$ gcc -o BufferManager BufferManager.c Driver.c
+
+Chelsea@MasterNugget /cygdrive/c/Users/Chelsea/VSCodeProjects
+$ ./BufferManager
+
+The buffer manager hasn't been initialized, yet.
+
+Error: Illegal Request!
+
+Allocating a buffer of size: 7
+New buffer created at address 0x1004081c8
+
+not tight: 9 511 word buffers, 1 255 word buffers, 1 127 word buffers,
+1 63 word buffers, 1 31 word buffers, 1 15 word buffers, and 1 7 word buffers
+
+not tight: 10 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+Allocating a buffer of size: 511
+New buffer created at address 0x1004081c8
+
+not tight: 9 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+Allocating a buffer of size: 511
+New buffer created at address 0x1004091c8
+
+not tight: 8 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+Allocating a buffer of size: 511
+New buffer created at address 0x10040a1c8
+
+not tight: 7 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+Allocating a buffer of size: 511
+New buffer created at address 0x10040b1c8
+
+not tight: 6 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+Allocating a buffer of size: 511
+New buffer created at address 0x10040c1c8
+
+not tight: 5 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+Allocating a buffer of size: 511
+New buffer created at address 0x10040d1c8
+
+not tight: 4 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+Allocating a buffer of size: 511
+New buffer created at address 0x10040e1c8
+
+not tight: 3 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+Allocating a buffer of size: 511
+New buffer created at address 0x10040f1c8
+
+not tight: 2 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+Allocating a buffer of size: 511
+The buffer manager is getting tight!
+New buffer created at address 0x1004101c8
+
+tight: 1 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+Allocating a buffer of size: 511
+The buffer manager is getting tight!
+New buffer created at address 0x1004111c8
+
+tight: 0 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+Allocating a buffer of size: 7
+
+Error: Not Enough Space!
+The buffer manager is getting tight!
+
+tight: 1 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+not tight: 2 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+not tight: 3 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+not tight: 4 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+not tight: 5 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+not tight: 6 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+not tight: 7 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+not tight: 8 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+not tight: 9 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+not tight: 10 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+Allocating a buffer of size: 127
+New buffer created at address 0x1004081c8
+
+Allocating a buffer of size: 15
+New buffer created at address 0x1004085c8
+
+Allocating a buffer of size: 7
+New buffer created at address 0x100408648
+
+Allocating a buffer of size: 15
+New buffer created at address 0x1004086c8
+
+Allocating a buffer of size: 7
+New buffer created at address 0x100408688
+
+Allocating a buffer of size: 511
+New buffer created at address 0x1004091c8
+
+Allocating a buffer of size: 127
+New buffer created at address 0x1004089c8
+
+Allocating a buffer of size: 7
+New buffer created at address 0x100408748
+
+Allocating a buffer of size: 15
+New buffer created at address 0x1004087c8
+
+Allocating a buffer of size: 7
+New buffer created at address 0x100408788
+
+not tight: 8 511 word buffers, 0 255 word buffers, 1 127 word buffers,
+0 63 word buffers, 1 31 word buffers, 1 15 word buffers, and 1 7 word buffers
+
+not tight: 8 511 word buffers, 0 255 word buffers, 1 127 word buffers,
+1 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 1 7 word buffers
+
+not tight: 8 511 word buffers, 0 255 word buffers, 1 127 word buffers,
+1 63 word buffers, 0 31 word buffers, 1 15 word buffers, and 0 7 word buffers
+
+not tight: 8 511 word buffers, 1 255 word buffers, 0 127 word buffers,
+1 63 word buffers, 0 31 word buffers, 1 15 word buffers, and 0 7 word buffers
+
+not tight: 9 511 word buffers, 1 255 word buffers, 0 127 word buffers,
+1 63 word buffers, 0 31 word buffers, 1 15 word buffers, and 0 7 word buffers
+
+not tight: 9 511 word buffers, 1 255 word buffers, 0 127 word buffers,
+1 63 word buffers, 0 31 word buffers, 1 15 word buffers, and 1 7 word buffers
+
+not tight: 9 511 word buffers, 1 255 word buffers, 0 127 word buffers,
+1 63 word buffers, 1 31 word buffers, 0 15 word buffers, and 1 7 word buffers
+
+not tight: 9 511 word buffers, 1 255 word buffers, 0 127 word buffers,
+1 63 word buffers, 1 31 word buffers, 1 15 word buffers, and 0 7 word buffers
+
+not tight: 9 511 word buffers, 1 255 word buffers, 1 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+not tight: 10 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers

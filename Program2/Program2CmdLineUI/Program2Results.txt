@@ -1,0 +1,671 @@
+Chelsea@MasterNugget /cygdrive/c/Users/Chelsea/VSCodeProjects
+$ gcc Program2.c -o Program2
+
+Chelsea@MasterNugget /cygdrive/c/Users/Chelsea/VSCodeProjects
+$ ./Program2
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 3
+The buffer manager hasn't been initialized, yet.
+
+Not Tight
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+The buffer manager hasn't been initialized, yet.
+
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 1
+
+Enter the desired buffer size: 700
+That size is too big. Choose a size from 7 to 511
+7
+
+Allocating a buffer of size: 8
+
+Searching for size 8...
+
+Searching for size 16...
+
+Searching for size 32...
+
+Searching for size 64...
+
+Searching for size 128...
+
+Searching for size 256...
+
+Searching for size 512...
+
+Splitting 512
+Index: 0 is now size 256.
+Index: 256 is now size 256.
+
+Splitting 256
+Index: 0 is now size 128.
+Index: 128 is now size 128.
+
+Splitting 128
+Index: 0 is now size 64.
+Index: 64 is now size 64.
+
+Splitting 64
+Index: 0 is now size 32.
+Index: 32 is now size 32.
+
+Splitting 32
+Index: 0 is now size 16.
+Index: 16 is now size 16.
+
+Splitting 16
+Index: 0 is now size 8.
+Index: 8 is now size 8.
+
+New Buffer Index: 0
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 3
+Not Tight
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+not tight: 9 511 word buffers, 1 255 word buffers, 1 127 word buffers,
+1 63 word buffers, 1 31 word buffers, 1 15 word buffers, and 1 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 2
+Enter the index to be returned: 0
+
+Comparing index 0 with index 8...
+Buffers Merged!
+
+Comparing index 0 with index 16...
+Buffers Merged!
+
+Comparing index 0 with index 32...
+Buffers Merged!
+
+Comparing index 0 with index 64...
+Buffers Merged!
+
+Comparing index 0 with index 128...
+Buffers Merged!
+
+Comparing index 0 with index 256...
+Buffers Merged!
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 3
+Not Tight
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+not tight: 10 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 1
+
+Enter the desired buffer size: 511
+
+Allocating a buffer of size: 512
+
+Searching for size 512...
+
+New Buffer Index: 0
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+not tight: 9 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 1
+
+Enter the desired buffer size: 511
+
+Allocating a buffer of size: 512
+
+Searching for size 512...
+
+New Buffer Index: 512
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+not tight: 8 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 1
+
+Enter the desired buffer size: 511
+
+Allocating a buffer of size: 512
+
+Searching for size 512...
+
+New Buffer Index: 1024
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+not tight: 7 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 1
+
+Enter the desired buffer size: 511
+
+Allocating a buffer of size: 512
+
+Searching for size 512...
+
+New Buffer Index: 1536
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+not tight: 6 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 1
+
+Enter the desired buffer size: 511
+
+Allocating a buffer of size: 512
+
+Searching for size 512...
+
+New Buffer Index: 2048
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+not tight: 5 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 1
+
+Enter the desired buffer size: 511
+
+Allocating a buffer of size: 512
+
+Searching for size 512...
+
+New Buffer Index: 2560
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+not tight: 4 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 1
+
+Enter the desired buffer size: 511
+
+Allocating a buffer of size: 512
+
+Searching for size 512...
+
+New Buffer Index: 3072
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+not tight: 3 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 1
+
+Enter the desired buffer size: 511
+
+Allocating a buffer of size: 512
+
+Searching for size 512...
+
+New Buffer Index: 3584
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+not tight: 2 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 1
+
+Enter the desired buffer size: 511
+
+Allocating a buffer of size: 512
+
+Searching for size 512...
+
+The buffer manager is getting tight!
+
+New Buffer Index: 4096
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+tight: 1 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 1
+
+Enter the desired buffer size: 511
+
+Allocating a buffer of size: 512
+
+Searching for size 512...
+
+The buffer manager is getting tight!
+
+New Buffer Index: 4608
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+tight: 0 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 1
+
+Enter the desired buffer size: 7
+
+Allocating a buffer of size: 8
+
+Searching for size 8...
+
+Searching for size 16...
+
+Searching for size 32...
+
+Searching for size 64...
+
+Searching for size 128...
+
+Searching for size 256...
+
+Searching for size 512...
+
+No buffer of that size is available: Returning -1
+
+New Buffer Index: -1
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+tight: 0 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 2
+Enter the index to be returned: 0
+
+The buffer manager is getting tight!
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 2
+Enter the index to be returned: 512
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 2
+Enter the index to be returned: 1024
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 2
+Enter the index to be returned: 1536
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 2
+Enter the index to be returned: 2048
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 2
+Enter the index to be returned: 2560
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 2
+Enter the index to be returned: 3072
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 2
+Enter the index to be returned: 3584
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 2
+Enter the index to be returned: 4096
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 2
+Enter the index to be returned: 4608
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 4
+
+
+tight: 10 511 word buffers, 0 255 word buffers, 0 127 word buffers,
+0 63 word buffers, 0 31 word buffers, 0 15 word buffers, and 0 7 word buffers
+
+
+Buffer Manager:
+ 0. Quit
+ 1. Request Buffer
+ 2. Return Buffer
+ 3. Status
+ 4. Debug
+
+Choose an option from the menu and press enter: 0

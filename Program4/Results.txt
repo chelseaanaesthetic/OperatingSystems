@@ -1,0 +1,50 @@
+E:\Google Drive\School\MetroState\Fall 2016\Operating Systems\Programs\Program 4
+>javac RequestQueue.java
+
+E:\Google Drive\School\MetroState\Fall 2016\Operating Systems\Programs\Program 4
+>javac DiskScheduler.java
+
+E:\Google Drive\School\MetroState\Fall 2016\Operating Systems\Programs\Program 4
+>java DiskScheduler
+First-Come First-Serve Scheduling Algorithm resulted in 1776931 head movements.
+Shortest Seek-Time First Scheduling Algorithm resulted in 7590 head movements.
+SCAN Scheduling Algorithm resulted in 7590 head movements.
+C-SCAN Scheduling Algorithm resulted in 12589 head movements.
+LOOK Scheduling Algorithm resulted in 7590 head movements.
+C-LOOK Scheduling Algorithm resulted in 12589 head movements.
+
+E:\Google Drive\School\MetroState\Fall 2016\Operating Systems\Programs\Program 4
+>java DiskScheduler
+First-Come First-Serve Scheduling Algorithm resulted in 1678512 head movements.
+Shortest Seek-Time First Scheduling Algorithm resulted in 7575 head movements.
+SCAN Scheduling Algorithm resulted in 7581 head movements.
+C-SCAN Scheduling Algorithm resulted in 4986 head movements.
+LOOK Scheduling Algorithm resulted in 7539 head movements.
+C-LOOK Scheduling Algorithm resulted in 4986 head movements.
+
+E:\Google Drive\School\MetroState\Fall 2016\Operating Systems\Programs\Program 4
+>java DiskScheduler
+First-Come First-Serve Scheduling Algorithm resulted in 1597241 head movements.
+Shortest Seek-Time First Scheduling Algorithm resulted in 7378 head movements.
+SCAN Scheduling Algorithm resulted in 7594 head movements.
+C-SCAN Scheduling Algorithm resulted in 4995 head movements.
+LOOK Scheduling Algorithm resulted in 7568 head movements.
+C-LOOK Scheduling Algorithm resulted in 4995 head movements.
+
+E:\Google Drive\School\MetroState\Fall 2016\Operating Systems\Programs\Program 4
+>java DiskScheduler
+First-Come First-Serve Scheduling Algorithm resulted in 1681820 head movements.
+Shortest Seek-Time First Scheduling Algorithm resulted in 7380 head movements.
+SCAN Scheduling Algorithm resulted in 7593 head movements.
+C-SCAN Scheduling Algorithm resulted in 4995 head movements.
+LOOK Scheduling Algorithm resulted in 7567 head movements.
+C-LOOK Scheduling Algorithm resulted in 4995 head movements.
+
+E:\Google Drive\School\MetroState\Fall 2016\Operating Systems\Programs\Program 4
+>java DiskScheduler
+First-Come First-Serve Scheduling Algorithm resulted in 1707657 head movements.
+Shortest Seek-Time First Scheduling Algorithm resulted in 7610 head movements.
+SCAN Scheduling Algorithm resulted in 7594 head movements.
+C-SCAN Scheduling Algorithm resulted in 4991 head movements.
+LOOK Scheduling Algorithm resulted in 7588 head movements.
+C-LOOK Scheduling Algorithm resulted in 4991 head movements.
